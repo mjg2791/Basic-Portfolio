@@ -98,7 +98,7 @@ p {
 	clear: both;
 	float: right;
 	position:relative;
-	width: 250px;
+	width: 270px;
 	height: 175px;
 	margin-top: : -375px;
 	margin-right: 80px;
@@ -110,13 +110,11 @@ p {
 
 }
 
-hr.style1 {
-	border-top: 2px solid #dddddd;
-	align-content: auto 0;
-	width: 60%;
-	padding-bottom: 5px;
+.Connect::after {
+	clear: both;
+	content: '';
+	display: block;
 }
-
 
 .icons{
 	position: absolute;
